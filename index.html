@@ -34,9 +34,24 @@
 <section id="about" class="section-black">
     <h2>About Me</h2>
     <p>
-        I am a passionate AI researcher working on Osteoarthritis (OA) Detection using Vision Transformers (ViTs).  
-        My background includes a Bachelor's in Instrumentation Engineering, specializing in Sensors & IoT, and a Diploma in Mechanical Engineering.  
-        My expertise lies in Machine Learning, Deep Learning, NLP, and Computer Vision, and I love solving real-world challenges with AI.  
+    As a passionate and lifelong learner in Artificial Intelligence and Machine Learning, I have committed myself to continuous self-education and innovation in this ever-evolving field.
+
+    I hold a Master’s degree in AI & ML from the University of Adelaide, where I developed strong expertise in machine learning, computer vision, and generative AI.
+
+    During my academic journey, I collaborated with the University on a cutting-edge research project involving medical image classification using Vision Transformers (ViT) from Hugging Face, which allowed me to explore the power of transformer-based models in healthcare.
+
+    My hands-on skills include building and deploying end-to-end machine learning workflows using Python, TensorFlow, Scikit-learn, Keras, Pickle, and Streamlit.
+
+    Additionally, I have completed professional certifications that enriched my knowledge of model serialization, real-time prediction systems, and full-stack AI deployment.
+
+    I am currently expanding my expertise into the world of Generative AI, working with LangChain, OpenAI’s GPT-4 API, FAISS, Pinecone, Hugging Face Transformers, and various open-source large language models (LLMs) to build context-aware, retrieval-augmented generation (RAG) applications.
+
+    I am also exploring multi-agent orchestration frameworks such as CrewAI, AutoGen, and LangGraph to design intelligent, task-driven LLM-based systems.
+
+    My goal is to remain at the forefront of innovation, continuously upskilling myself in areas like prompt engineering, fine-tuning foundation models, responsible AI, and edge deployment.
+
+    I believe AI has the power to transform industries and improve lives, and I am dedicated to using my skills, research, and curiosity to drive meaningful innovations throughout my career.
+
     </p>
 </section>
 
@@ -56,15 +71,15 @@ As an AI researcher, I am passionate about leveraging Machine Learning and Deep 
     <h2>🚀 My Projects</h2>
 
     <div class="project">
-        <h3>🔹 Recommendation System</h3>
-        <p>This project involves developing a personalized recommendation system using collaborative filtering techniques. The system analyzes user behavior and recommends items based on similar users using cosine similarity. It also uses item-item similarity matrix with Pearson correlation to recommend similar items. Additionally, Singular Value Decomposition (SVD) is applied for dimensionality reduction, improving the system's efficiency. The system's performance was evaluated using precision, recall, and F1-score for accuracy.</p>
-        <a href="https://github.com/HarshRathiii/Portfolio/blob/main/Recommendation%20system.pdf" target="_blank">View Project</a>
+        <h3>🔹 Movie Review Sentiment Analysis with TensorFlow and NLP</h3>
+        <p>In this project, I built a deep learning sentiment analysis model that classifies movie reviews as positive or negative using TensorFlow. The text data was preprocessed through tokenization, lowercasing, stopword removal, and padding sequences to equal lengths. I used Tokenizer to create a word index and converted sequences into embeddings suitable for training. A sequential neural network was designed with embedding, LSTM, and dense layers to capture contextual sentiment. The model was trained and evaluated on labeled datasets and achieved good performance. It was then serialized using pickle and deployed with Streamlit, allowing real-time sentiment predictions directly from VS Code via a web interface. This project deepened my understanding of end-to-end NLP pipelines, embedding layers, and user-facing deployment.</p>
+        <a href="https://end-to-end-rnn-dckgij3cayn8f3rhhbgjdy.streamlit.app/" target="_blank">View Project</a>
     </div>
     
     <div class="project">
-        <h3>🔹 Stock Price Prediction Using LSTM</h3>
-        <p>This project focuses on developing a time-series prediction model for NIFTY50 stock prices using Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM). While RNN suffered from the vanishing gradient problem, LSTM performed significantly better by retaining long-term dependencies in the data. The model achieved an R² score of 0.89 with optimized hyperparameters, showcasing its accuracy in predicting stock prices.</p>
-        <a href="https://github.com/HarshRathiii/Portfolio/blob/main/stock%20price%20prediction.pdf" target="_blank">View Project</a>
+        <h3>🔹 Customer Churn Prediction Using ANN and Streamlit</h3>
+        <p>This project focused on predicting customer churn in the banking sector using an Artificial Neural Network (ANN) built with TensorFlow and Keras. The dataset included customer profiles with features like credit score, balance, geography, and account activity. I applied data preprocessing including label encoding, feature scaling, and data splitting into training and test sets. The ANN model used fully connected layers with ReLU and sigmoid activations for binary classification. After training and achieving satisfactory accuracy, the model was saved using pickle and integrated into a Streamlit app for interactive use. This deployment enabled users to input customer data and instantly predict churn likelihood. The project helped me gain practical experience in classification problems, ANN architecture, model serialization, and UI deployment.</p>
+        <a href="https://end-to-end-ann-churn-3j8sefakewykwkeuj8ew8w.streamlit.app/" target="_blank">View Project</a>
     </div>
     
     <div class="project">
@@ -72,14 +87,7 @@ As an AI researcher, I am passionate about leveraging Machine Learning and Deep 
         <p>This project involved building a Question Answering (QA) system using TF-IDF vectorization and cosine similarity. The key steps include preprocessing the text by tokenizing, removing stopwords, and performing lemmatization. The TF-IDF vectorization technique is used to convert the text into a numerical format, and cosine similarity is applied to match the most relevant document to a given query. The system successfully built an efficient QA retrieval system.</p>
         <a href="https://github.com/HarshRathiii/my-project/blob/main/question%20answer.ipynb" target="_blank">View Project</a>
     </div>
-    
-    <div class="project">
-        <h3>🔹 Breast Cancer Detection</h3>
-        <p>This project involved developing a machine learning classification model for predicting breast cancer. The project compared several models, including Support Vector Machines (SVM), Random Forest, and Multi-Layer Perceptron (MLP) Neural Networks. After evaluation, the model achieved an R² score of 0.93 with precision-recall balancing, demonstrating its effectiveness in predicting the presence of breast cancer.</p>
-        <a href="https://github.com/HarshRathiii/my-project/blob/main/A2_template_2024%20(1).ipynb" target="_blank">View Project</a>
-    </div>
-    
-    <!-- New Project Summary and PDF -->
+
     <div class="project">
         <h3>🔹 Bird Species Classification using CNN: VGG16 vs ResNet-152</h3>
         <p>This project compares the performance of two deep learning architectures, VGG16 and ResNet-152, in classifying bird species. The dataset consists of over 100 bird species, and the models were trained and fine-tuned using techniques like data augmentation, transfer learning, and optimization of hyperparameters. The results showed that ResNet-152 outperforms VGG16 with a final validation accuracy of 96.08% compared to 93.94% for VGG16. This project highlights the significance of selecting the right model based on the nature of the dataset and provides insights into optimizing CNN architectures for image classification tasks.</p>
